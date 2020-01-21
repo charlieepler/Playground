@@ -1,0 +1,4 @@
+Fix High CPU w/ OneDrive, MAC
+
+
+find ~/Library/Group\ Containers/ -type d -name OfficeFileCache -exec rm -r {} +
